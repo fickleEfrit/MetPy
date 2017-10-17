@@ -106,4 +106,8 @@ ax.set_title('{:.0f} hPa Heights (m) and Temperature (C)'.format(plevs[0].m), lo
 
 # Set the figure title
 fig.suptitle('WRF-ARW Forecast VALID: {:s} UTC'.format(str(vtimes[FH])), fontsize=14)
+
+# Add netpy logo
+add_netpy_logo()
+
 plt.show()
